@@ -3,28 +3,27 @@
 ## WEBSOCKETS
 Simple Websocket client and server
 You need to import some maven libs
-```
-  <dependency>
-	    <groupId>org.glassfish.tyrus.bundles</groupId>
-	    <artifactId>tyrus-standalone-client</artifactId>
-	    <version>1.15</version>
-	</dependency>
-	<dependency>
-	    <groupId>org.glassfish.tyrus</groupId>
-	    <artifactId>tyrus-server</artifactId>
-	    <version>1.12</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>org.glassfish.tyrus</groupId>
-	    <artifactId>tyrus-container-grizzly-server</artifactId>
-	    <version>1.12</version>
-	</dependency>
+```maven
+<dependency>
+	<groupId>org.glassfish.tyrus.bundles</groupId>
+	<artifactId>tyrus-standalone-client</artifactId>
+	<version>1.15</version>
+</dependency>
+<dependency>
+    	<groupId>org.glassfish.tyrus</groupId>
+    	<artifactId>tyrus-server</artifactId>
+   	<version>1.12</version>
+</dependency>	
+<dependency>
+	<groupId>org.glassfish.tyrus</groupId>
+	<artifactId>tyrus-container-grizzly-server</artifactId>
+	<version>1.12</version>
+</dependency>
 ```
 
 ## RUN
 ###### A java file for multi threading your code
-```
+```java
 Run run = new Run() {
   @Override
   public void run() {
@@ -37,7 +36,7 @@ run.runTask(true);
 ## Tray
 ###### All you need for your Tray in java
 You need to import Run lib too
-```
+```java
 //FILE SYSTEM
 Image image = Toolkit.getDefaultToolkit().createImage(new File("C:/path/to/your/image.png").getAbsolutePath());
 
