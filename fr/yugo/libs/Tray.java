@@ -190,7 +190,7 @@ public class Tray {
 	/**
 	 * remove ALL items and space in the popup menu
 	 */
-	public void removeAllTrayManu() {
+	public void removeAllTrayMenu() {
 		menu.removeAll();
 	}
 	
