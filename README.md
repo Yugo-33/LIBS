@@ -3,7 +3,7 @@
 ## WEBSOCKETS
 Simple Websocket client and server
 You need to import some maven libs
-```maven
+```xml
 <dependency>
 	<groupId>org.glassfish.tyrus.bundles</groupId>
 	<artifactId>tyrus-standalone-client</artifactId>
