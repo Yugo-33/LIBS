@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.net.URI;
 
-import javax.json.Json;
-import javax.json.JsonObject;
 import javax.websocket.ClientEndpoint;
 import javax.websocket.CloseReason;
 import javax.websocket.ContainerProvider;
